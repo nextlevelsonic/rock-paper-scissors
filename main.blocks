@@ -1,0 +1,55 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="n(?S-o+qGeIfTu#wZd%;">rock paper scissors</variable></variables><block type="pxt-on-start" id="~v0Ca.KBV;d7lk+W[Nxk" x="0" y="0"></block><block type="device_forever" id="5n/wz4.$}+6DQ2U6W.S." x="205" y="0"></block><block type="device_gesture_event" id="JMPTfn}JO^^Z.%ef[~k." x="534" y="209"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="_$d]hgIusNAM.%3h0_Y^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="mx,h+5jiIs%kevv_7lTL"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="ArY7?+Z@TQIjfMqNew^x"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="+w6$}!=JW+[0X+Xq7vr="><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="m{WA({=fU-}w0**J7,jK"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="0LaNBTGkO3s1g9G$4F^#"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="variables_set" id="69[.`;k0d?r=c*4w|zQ~"><field name="VAR" id="n(?S-o+qGeIfTu#wZd%;">rock paper scissors</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="0R!$yzLc0PueA:$q~HTA"><value name="min"><shadow type="math_number" id="+J,zap+2CtCv=PL1EU]w"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="@(,b`Gi{EMUN@^Re(dw;"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="/2z-N8F}%3^[A3{Gk{*k"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="$r?d]j4v*7OW|;pKXNht"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="x6%G)IWbTKTj}/oYD$di"><field name="VAR" id="n(?S-o+qGeIfTu#wZd%;">rock paper scissors</field></block></value><value name="B"><shadow type="math_number" id="`fla{,*m3]rb.GHZ$6Wo"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="p}e!7.W`:D,K9H[_L:se"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><next><block type="controls_if" id="q2h),h0`9ccY0}T!a!ej"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="M-0~TY8Q(AI0C);(z`Yj"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="YFUag!*UZ1uUG0)HMu*;"><field name="VAR" id="n(?S-o+qGeIfTu#wZd%;">rock paper scissors</field></block></value><value name="B"><shadow type="math_number" id="XM[9APFIn%kfsgAX]jfr"><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="PG!J%`jU^P)J#)GH#1dd"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field></block></statement><next><block type="controls_if" id="@9@$od/($XOeYcK/IV{5"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Faj)xuq(Ded($.PG*Z]Y"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id=";VL]Qw$P2+S;K7zp?uF:"><field name="VAR" id="n(?S-o+qGeIfTu#wZd%;">rock paper scissors</field></block></value><value name="B"><shadow type="math_number" id="CcSZ]79$,c|Yj-Nel#^r"><field name="NUM">3</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="L;wPoEvv0h5Oh{_67R8j"><field name="LEDS">`
+        # # . # # 
+        . # # # # 
+        . . # . . 
+        . # # # # 
+        # # . # #
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
